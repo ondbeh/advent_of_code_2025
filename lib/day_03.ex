@@ -1,5 +1,4 @@
 defmodule Day03 do
-  # --- Part 1 ---
   def part1(path) do
     File.read!(path)
     |> String.split("\n", trim: true)
